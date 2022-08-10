@@ -1,0 +1,96 @@
+
+.left{
+   
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+}
+.mid{
+    border: 2px solid cornsilk;
+width: 33%;
+margin: 12px auto;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 10px;
+    /* border: 2px solid white; */
+    display: inline-block;
+}
+ 
+.navbar li{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 17px;
+}
+
+.navbar li a:hover{
+    background-color: cornsilk;
+    color: black;
+}
+
+.left img{
+    width: 65px;
+}
+
+.heading{
+    position: absolute;
+    color:cornsilk;
+    top: -23px;
+    right: -78px;
+}
+
+.btn{
+cursor: pointer;
+margin: 6px 2px; 
+padding: 6px 12px;
+background-color: cornsilk;
+border-radius: 8px;
+font-size: 17px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    border: 2px solid white;
+    color:aliceblue;
+    width: 33%;
+    margin: 100px 10px;
+    padding: 67px;
+    border-radius: 10px;
+}
+
+.form-group input{
+    display: block;
+    margin: 8px auto;
+    padding: 11px 11px;
+    text-align: center;
+    width: 208px;
+}
+
+.container h2{
+    color: white;
+    text-align: center;
+}
+
+.container .btn{
+    display: block;
+    width: 25%;
+    margin: auto;
+}
+
+.feature h2{
+    text-align: center;
+    margin: -90px 500px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
